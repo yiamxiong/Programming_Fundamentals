@@ -1,0 +1,87 @@
+Nouns and Verbs
+Problem Statement:
+  Write a program that prompts the user for a type of fish. Once that is entered, prompt the user for length in inches, and weight of fish. Add this information to an array. If there are more fish, prompt the user again for the same information. When there are no more fish, ask user for start and end times of fishing. Calculate the average size and weight of each type of fish. Display to the end user the different fishes and their length and weight, average size, average weight, and fish per hour.
+  
+Nouns: 
+  type of fish, length of fish, weight of fish, fish start time, fish end time
+  
+Verbs:
+  prompt, calculate average weight, calculate average length, display information
+  
+Defining Diagram
+Inputs:
+  typeFish
+  lengthFish
+  weightFish
+  moreFish
+  startFish
+  endFish
+
+Processing:
+  prompt user for typeFish
+  prompt user for lengthFish
+  prompt user for weightFish
+  prompt user to see if there are moreFish
+  if moreFish = yes
+  then repeat
+  else calculate fish average length and weight
+  
+Output:
+  typeFish
+  lengthFish
+  weightFish
+  avgFishLength
+  avgFishWeight
+  avgFishHour
+  
+Solution Algorithm:
+fishCalculator
+  while true
+    prompt for typeFish
+    prompt for lengthFish
+    prompt for weightFish
+    moreFish = yes
+  end while
+  
+  prompt for startFish
+  prompt for endFish
+  
+  calculate fish average, length, weight, fish per hour
+  
+  display typeFish, length, weight
+  display typeFish average
+  repeat for all different fish types
+  
+  calculate time/fish per hour
+  
+  display fish per hour
+END
+  
+Test plans:
+
+Variables:
+
+Test 1:
+
+Input Values:
+
+Expected Results:
+
+Actual Results:
+
+Test 2:
+
+Input Values:
+
+Expected Results:
+
+Actual Results:
+
+Test 3:
+
+Input Values:
+
+Expected Results:
+
+Actual Results:
+
